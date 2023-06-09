@@ -1,23 +1,23 @@
-# RSPack Test Repository
+# RSPack Test App
 
-Welcome to the RSPack Test Repository! This repository is created to demonstrate the usage of RSPack, a powerful packaging tool for web applications. RSPack helps you organize and bundle your app's assets and dependencies efficiently, making it easy to distribute and deploy your application.
+Welcome to the RSPack Test App! This repository is created to demonstrate the usage of RSPack, a powerful packaging tool for web applications.
 
 ## Getting Started
 
 ```
-git clone https://github.com/your-username/rspack-test.git
+git clone git@github.com:izm20/rspack-test-app.git
 ```
 
 After cloning the repository, navigate to the project directory:
 
 ```
-cd rspack-test
+cd rspack-test-app
 ```
 
 Next, install the project dependencies by running the following command:
 
 ```
-npm install
+npm ci
 ```
 
 ## Usage
@@ -28,15 +28,13 @@ This repository contains a sample web application built with RSPack. To build an
 npm run build
 ```
 
-This command will trigger the RSPack build process, which will analyze the application's dependencies and bundle them into a single file. The bundled file will be generated in the `dist` directory.
-
 To start the application locally, you can use the following command:
 
 ```
-npm start
+npm run dev
 ```
 
-This will start a local development server, and you can access the application by opening your browser and visiting [http://localhost:3000](http://localhost:3000).
+This will start a local development server, and you can access the application by opening your browser and visiting [http://localhost:8081](http://localhost:8081).
 
 ## Contributing
 
@@ -58,6 +56,6 @@ We would like to express our gratitude to the developers and maintainers of thes
 
 ## Contact
 
-If you have any questions or need further assistance, please feel free to reach out to us at support@example.com. We'd be happy to help!
+If you have any questions or need further assistance, please feel free to reach out to us. We'd be happy to help!
 
 Happy coding!
