@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "@rspack/cli": "latest",
-        "@runroom/npm-scripts": "^1.2.10",
+        "@runroom/npm-scripts": "^2.0.1",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^14.0.0",
         "@types/react": "18.2.0",
